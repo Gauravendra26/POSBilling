@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/llOrderLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:orientation="vertical"
+        android:background="@drawable/shape_category"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:elevation="@dimen/_3sdp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:layout_marginTop="@dimen/_5sdp"
+
+            >
+            <TextView
+                android:id="@+id/tvNameOfItem"
+                android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                android:textSize="@dimen/_13sdp"
+                android:textColor="@color/black"
+                android:text="Name of the food item to be displayed"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:textStyle="bold"
+                android:fontFamily="@font/proxima"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:weightSum="3"
+
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            >
+            <TextView
+                android:id="@+id/tvPriceofItem"
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_13sdp"
+                android:textColor="@color/main"
+                android:text="Price"
+                android:textStyle="bold"
+                android:fontFamily="@font/proxima"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_13sdp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:fontFamily="@font/proxima"
+                />
+
+            <TextView
+                android:id="@+id/tvQuantity"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                 android:layout_height="wrap_content"
+                android:textSize="@dimen/_13sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:textColor="@color/black"
+                android:text="Add note"
+                android:textStyle="bold"
+                android:fontFamily="@font/proxima"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

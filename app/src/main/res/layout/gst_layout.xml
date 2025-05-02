@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginVertical="@dimen/_3sdp"
+         >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.2 "
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@color/black"
+            android:text="CGST"
+            android:textStyle="bold"
+            android:fontFamily="@font/proxima"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5 "
+            android:id="@+id/tvCGST"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@color/black"
+            android:text="CGST"
+            android:textStyle="bold"
+            android:fontFamily="@font/proxima"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.03"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text=": "
+
+            android:fontFamily="@font/proxima"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/tvCGSTAmount"
+            android:layout_width="0dp"
+            android:layout_weight="0.27"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@color/main"
+            android:textStyle="bold"
+            android:fontFamily="@font/proxima"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginVertical="@dimen/_3sdp"
+         >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@color/black"
+            android:text="SGST"
+            android:textStyle="bold"
+            android:fontFamily="@font/proxima"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5 "
+            android:id="@+id/tvSGST"
+
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@color/black"
+            android:text="SGST"
+            android:textStyle="bold"
+            android:fontFamily="@font/proxima"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.03"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text=": "
+
+            android:fontFamily="@font/proxima"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/tvSGSTAmount"
+            android:layout_width="0dp"
+            android:layout_weight="0.27"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@color/main"
+            android:textStyle="bold"
+            android:fontFamily="@font/proxima"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

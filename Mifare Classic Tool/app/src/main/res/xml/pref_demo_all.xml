@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:icon="@mipmap/print"
+        android:key="demo_print_key"
+        android:title="@string/pref_print"/>
+
+    <Preference
+        android:icon="@mipmap/card"
+        android:key="demo_card_key"
+        android:title="@string/pref_card"/>
+</PreferenceScreen>

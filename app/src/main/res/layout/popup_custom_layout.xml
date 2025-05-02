@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="@dimen/_10sdp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+
+        <ImageView
+            android:id="@+id/imgAlertLogo"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_centerVertical="true"
+           android:layout_marginVertical="@dimen/_5sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo"
+         />
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DSOI"
+            android:textSize="@dimen/_18sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imgAlertLogo"
+            android:fontFamily="@font/proxima"
+            android:textColor="@color/main"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/dialog_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:textSize="@dimen/_14sdp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:fontFamily="@font/proxima"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        />
+    <TextView
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:textSize="@dimen/_14sdp"
+        android:text="Please Recharge Card"
+        android:fontFamily="@font/proxima"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black"
+         android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_18sdp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="@dimen/_5sdp"
+        >
+
+
+
+         <RelativeLayout
+            android:id="@+id/rlYes"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginVertical="@dimen/_5sdp"
+            android:background="@drawable/shape_ok"
+             android:elevation="@dimen/_3sdp"
+ android:layout_centerHorizontal="true"
+            android:layout_marginRight="@dimen/_10sdp"
+            >
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_centerInParent="true"
+                 android:text="OK"
+                 android:textColor="@color/white"
+                 android:textSize="@dimen/_12sdp"
+                 android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>

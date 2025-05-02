@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+          android:layout_marginVertical="@dimen/_3sdp"
+        android:layout_marginHorizontal="@dimen/_5sdp"
+        >
+        <TextView
+            android:id="@+id/tvKOTNum"
+            android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+            android:textSize="@dimen/_20sdp"
+            android:textColor="@color/black"
+            android:text="6Pcs"
+            android:layout_centerVertical="true"
+            android:textStyle="bold"
+            android:fontFamily="@font/proxima"
+            />
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:paddingVertical="@dimen/_5sdp"
+              android:text="Cancel"
+
+            android:layout_alignParentRight="true"
+             android:textColor="@color/white"
+             android:fontFamily="@font/proxima"
+            android:textSize="@dimen/_15sdp"
+            android:background="@drawable/shape_login_button" />
+    </RelativeLayout>
+
+</RelativeLayout>

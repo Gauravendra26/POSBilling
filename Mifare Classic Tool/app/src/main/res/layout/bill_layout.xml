@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        >
+        <TextView
+            android:id="@+id/tvItemnameWithQnt"
+            android:layout_width="0dp"
+            android:layout_weight="0.7 "
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/black"
+            android:text="Item Name - 6Pcs"
+            android:textStyle="bold"
+            android:fontFamily="@font/proxima"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.03"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_15sdp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text=": "
+            android:fontFamily="@font/proxima"
+            android:gravity="center"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.27"
+            android:gravity="right"
+            android:id="@+id/tvItemAmount"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_15sdp"
+            android:layout_gravity="center"
+            android:textColor="@color/main"
+            android:text="\u20B9 78.0"
+            android:textStyle="bold"
+            android:fontFamily="@font/proxima"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

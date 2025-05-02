@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/llMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginVertical="@dimen/_5sdp"
+        android:orientation="vertical"
+        android:background="@drawable/shape_category"
+        android:elevation="@dimen/_3sdp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="0.75"
+                >
+
+                <TextView
+                    android:id="@+id/tvNameOfItem"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_13sdp"
+                    android:textColor="@color/black"
+                    android:text="Name of the food item to be displayed"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/proxima"
+                    />
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:weightSum="1"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    >
+                    <TextView
+                        android:id="@+id/tvItemPrice"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_13sdp"
+                        android:textColor="@color/main"
+                        android:text="\u20B9 500.00"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/proxima"
+                        />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/llAddOrder"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="0.25"
+
+                android:background="@drawable/shape_add_button"
+                >
+                <TextView
+                    android:id="@+id/tvAddText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Add For Order"
+                    android:textSize="@dimen/_13sdp"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/proxima"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/llAddGreyOrder"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="0.25"
+                android:visibility="gone"
+                android:background="@drawable/shape_add_grey_button"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Added"
+                    android:textSize="@dimen/_13sdp"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/proxima"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
